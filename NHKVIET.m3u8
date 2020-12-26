@@ -1,0 +1,6 @@
+#EXTM3U
+
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audiod",NAME="audio_vie",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="vie",https://b-nhkwlive-ojp.webcdn.stream.ne.jp/hls/live/2003459-b/nhkwlive-ojp/index_1M.m3u8"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="VIE",NAME="SUBSVIE",AUTOSELECT=YES, DEFAULT=YES,URI="https://nhkwlive-burnin.webcdn.stream.ne.jp/vtt/vi_G/webvtt.m3u8"
+#EXT-X-STREAM-INF:BANDWIDTH=687256,CODECS="avc1.42e00a,mp4a.40.2",AUDIO="audiod",SUBTITLES="subs"
+https://b-nhkwlive-ojp.webcdn.stream.ne.jp/hls/live/2003459-b/nhkwlive-ojp/index_1M.m3u8
