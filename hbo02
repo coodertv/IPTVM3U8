@@ -1,5 +1,0 @@
-#EXTM3U
-
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audiod",NAME="audio_Vie",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="tha",URI="https://liveorigin01.hbogoasia.com:8443/origin/live/main/HBO/4.m3u8"
-#EXT-X-STREAM-INF:BANDWIDTH=687256,CODECS="avc1.42e00a,mp4a.40.2",AUDIO="audiod",SUBTITLES="subs"
-http://36.37.252.114:888/Apple/OneTV-030/playlist.m3u8
