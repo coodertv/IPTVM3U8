@@ -1,0 +1,6 @@
+#EXTM3U
+
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audiod",NAME="audio_tha",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="tha",URI="http://sara12.webhop.net:8000/live/emad_854959/k3aRL3Eb/11620.m3u8?checkedby:iptvcat.com"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="THA",NAME="SUBSTHA",AUTOSELECT=YES, DEFAULT=YES,URI="http://sara12.webhop.net:8000/live/emad_854959/k3aRL3Eb/11620.m3u8?checkedby:iptvcat.com"
+#EXT-X-STREAM-INF:BANDWIDTH=687256,CODECS="avc1.42e00a,mp4a.40.2",AUDIO="audiod",SUBTITLES="subs"
+http://rv.therevenge.co:80/565656/565656/85070?checkedby:iptvcat.com
