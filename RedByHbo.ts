@@ -1,0 +1,6 @@
+#EXTM3U
+
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audiod",NAME="audio_tha",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="tha",URI="https://liveorigin01.hbogoasia.com:8443/origin/live/main/RED/7.m3u8"
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="THA",NAME="SUBSTHA",AUTOSELECT=YES, DEFAULT=YES,URI="https://liveorigin01.hbogoasia.com:8443/origin/live/main/RED/index.m3u8"
+#EXT-X-STREAM-INF:BANDWIDTH=687256,CODECS="avc1.42e00a,mp4a.40.2",AUDIO="audiod",SUBTITLES="subs"
+https://liveorigin01.hbogoasia.com:8443/origin/live/main/RED/index.m3u8
