@@ -1,0 +1,14 @@
+<tv generator-info-name="COODER TV">
+<channel id="tbk">
+<display-name lang="vi">BẮC KẠN
+</display-name>
+</channel>
+<programme start="20181107000000 +0700" stop="20500825000000 +0700" channel="10">
+<title lang="vi">ĐÀI PHÁT THANH TRUYỀN HÌNH BẮC KẠN 
+</title>
+</programme>
+<channel id="12">
+<display-name lang="vi">Euro News</display-name>
+</channel>
+<programme start="20181107000000 +0700" stop="20500825000000 +0700" channel="12">
+<title lang="vi">Kênh tin tức tiếng Anh</title>
