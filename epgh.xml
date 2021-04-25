@@ -1,0 +1,13 @@
+<tv generator-info-name="zallviet">
+<channel id="vovtvhd">
+<display-name lang="vi">VOV TV</display-name>
+</channel>
+  <programme start="20181107010000 +0700" stop="20500825015000 +0700" channel="vovtvhd">
+    <title lang="en">NHỊP SỐNG HÔM NAY</title>
+    <desc lang="en"/>
+  </programme>
+  <programme start="20181107002220 +0700" stop="20500825002249 +0700" channel="vovtvhd">
+    <title lang="en">Check in
+</desc>
+</programme>
+</tv
