@@ -1,0 +1,18 @@
+<tv generator-info-name="epgkixtv2021">
+<channel id="kixepg">
+<display-name lang="vi">KIX</display-name>
+</channel>
+  <programme start="20181107200000 +0700" stop="20500825205900 +0700" channel="kixepg">
+    <title lang="en">lucha Underground S3 - 13 </title>
+    <desc lang="en"/>10 Fight 10 - 10  </programme>
+  <programme start="20181107210000 +0700" stop="20500825211900 +0700" channel="kixepg">
+    <title lang="en"> 10 Fight 10 - 10</title>
+    <desc lang="en"/> The King's Salvation
+  </programme>
+  <programme start="20181107222000 +0700" stop="20500825009000 +0700" channel="kixepg">
+    <title lang="en">The King's Salvation</title>
+    <desc lang="en"/>infinite challenge - 324
+  </programme>
+</desc>
+</programme>
+</tv
