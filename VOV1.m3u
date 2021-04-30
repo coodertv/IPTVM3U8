@@ -1,0 +1,5 @@
+#EXTM3U
+
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audiod",NAME="audio_vie",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="vie",URI="https://vovstream.1cdn.vn/vovlive/vov1vov5Vietnamese.sdp_aac/chunklist_w262548794.m3u8"
+#EXT-X-STREAM-INF:BANDWIDTH=687256,CODECS="avc1.42e00a,mp4a.40.2",AUDIO="audiod",SUBTITLES="subs"
+https://raw.githubusercontent.com/coodertv/IPTVM3U8/main/introVOV1
