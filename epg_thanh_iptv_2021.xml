@@ -1,0 +1,30 @@
+<tv generator-info-name="test ">
+<channel id="tbk">
+<display-name lang="vi">Bắc Kạn
+</display-name>
+</channel>
+<programme start="20181107000000 +0700" stop="20500825000000 +0700" channel="tbk">
+<title lang="vi">Truyền Hình Bắc Kạn</title>
+</programme>
+
+<channel id="bein">
+<display-name lang="vi">Bein Sports 1</display-name>
+</channel>
+<programme start="20181107000000 +0700" stop="20500825000000 +0700" channel="bein">
+<title lang="vi">Thể Thao Bóng Đá Quốc Tế</title>
+</programme>
+
+<channel id="thvl4">
+<display-name lang="vi">Vĩnh Long 4</display-name>
+</channel>
+<programme start="20181107000000 +0700" stop="20500825000000 +0700" channel="thvl4">
+<title lang="vi">Truyền Hình Vĩnh Long 4</title>
+</programme>
+
+<channel id="+">
+<display-name lang="vi"></display-name>
+</channel>
+<programme start="20181107000000 +0700" stop="20500825000000 +0700" channel="">
+<title lang="vi"></title>
+</programme>
+</tv>
