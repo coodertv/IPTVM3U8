@@ -24,7 +24,7 @@ $opts2 = array(
   )
 );
 
-$return=file_get_contents("https://coodertv.w3spaces.com/get.md?u=$fid[1]", false, stream_context_create($opts2));
+$return=file_get_contents("https://raw.githubusercontent.com/coodertv/IPTVM3U8/main/get.php?u=$fid[1]", false, stream_context_create($opts2));
 
 preg_match('/allowtransparency="true" src=(.*?)\&/', $return, $embed);
 
@@ -32,7 +32,7 @@ preg_match('/allowtransparency="true" src=(.*?)\&/', $return, $embed);
 $opts3 = array(
   'http'=>array(
     'method'=>"GET",
-    'header'=>"Referer: https://coodertv.w3spaces.com/get.md?u=$fid[1]\vieon\vtv1-hd" .
+    'header'=>"Referer: https://raw.githubusercontent.com/coodertv/IPTVM3U8/main/get.php?u=$fid[1]\vieon\vtv1-hd" .
 		"User-Agent: VieON/20.0.1)"       
   )
 );
@@ -40,7 +40,7 @@ $opts3 = array(
 $return=file_get_contents("$embed[1]", false, stream_context_create($opts3));
 preg_match('/file:"(.*?)"/', $return, $m3u8);
 
-echo "$m3u8[1]\n\n";
+echo "$m3u8[1]\vieon\vtv1-hd";
 
 $hls=str_replace("http","hls://http",$m3u8[1]);
 
