@@ -1,6 +1,4 @@
-#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml" m3uautoload=1.0
-#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml" format="auto" refresh="0.5" channel-number=1.0
-#EXT-X-VERSION:1.0
+#EXTM3U url-tvg="http://gg.gg/epgve " m3uautoload=1
 #EXTGRP:VTV
 #PLAYLIST:VTV1 HD
 #EXTINF:-1 ch-number="vtv1hd" tvg-id="vtv1hd" tvg-chno="vtv1hd" tvg-name="VTV1 HD" tvg-url="http://onetv.click/schedule/epg.xml" tvg-logo="https://i.ibb.co/CJPqkrD/venustv-vtv1.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/vtv1hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3",VTV1 HD
