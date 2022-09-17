@@ -41,6 +41,8 @@ https://drm-livecdn.hplus.com.vn/CDN-FPT02/VTV9-HD-1080p/chunks.m3u8
 #PLAYLIST:VTV5 HD - Tây Nam Bộ
 #EXTINF:10 ch-number="vtv5hdtnb" tvg-id="vtv5hdtnb" tvg-chno="vtv5hdtnb" tvg-name="VTV5 HD - Tây Nam Bộ" tvg-url="http://onetv.click/schedule/epg.xml" tvg-logo="https://i.ibb.co/DRS3sp8/venustv-vtv5-tay-nam-bo.png",VTV5 HD - Tây Nam Bộ
 https://api.vthanhtivi.pw/v1/getlink/vtvgo/7
+#EXTINF:-1 tvg-id="backan" group-title="TV" tvg-logo="https://i.ibb.co/7nBfXJm/veiptv-bac-kan-tv-hd.png", Bắc Kạn
+https://livecdn.fptplay.net/sdb/backan_hls.smil/chunklist_b2500000.m3u8
 #EXTGRP:K+
 #PLAYLIST:K+Life HD
 #EXTINF:13 ch-number="klifehd" tvg-id="klifehd" tvg-chno="klifehd" tvg-name="K+Life HD" tvg-url="http://onetv.click/schedule/epg.xml" tvg-logo="https://i.ibb.co/fkSdbWW/venustv-kplus-life.png",K+Life HD
@@ -62,8 +64,6 @@ https://s8213.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv341&offset=1&nodelay=1
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=ZmQ1ZDE0NzItNDJjZi0zNTY2LWE5NTgtNDZmNDY2MzQxNDgy
 http://s70132.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv373&offset=1&nodelay=1
-#EXTINF:-1 tvg-id="backan" group-title="TV" tvg-logo="https://i.ibb.co/7nBfXJm/veiptv-bac-kan-tv-hd.png", Bắc Kạn
-https://livecdn.fptplay.net/sdb/backan_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="vinhlong1hd" tvg-name="THVL1 HD" tvg-language="Vietnam" group-title="TV" tvg-logo="https://i.ibb.co/twRySpc/venustv-vinh-long-tv-1.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/vinhlong1_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3", THVL1 HD
 https://livecdn.fptplay.net/hda1/vinhlong1_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="vinhlong2hd" group-title="TV" tvg-logo="https://i.ibb.co/wrCwrYn/venustv-vinh-long-tv-2.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/vinhlong2_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3", THVL2 HD
@@ -72,6 +72,12 @@ https://livecdn.fptplay.net/hda2/vinhlong2_vhls.smil/chunklist_b5000000.m3u8
 https://livecdn.fptplay.net/hda2/vinhlong3_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="vinhlong4hd" group-title="TV" tvg-logo="https://i.ibb.co/BNkmhpn/venustv-vinh-long-tv-4.png" catchup="default" catchup-source="https://api.vthanhtivi.pw/v1/dvr/thvli/thvl4/${start}/${offset}" catchup-days="3", THVL4 HD
 https://api.vthanhtivi.pw/v1/getlink/mytv_web/429/hd
+#EXTINF:-1 tvg-id="lovenature" group-title="TV" tvg-logo="https://i.ibb.co/KXvRyJv/venustv-lovenature4k.png", Love Nature
+https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="axnhd" group-title="TV" tvg-logo="https://i.ibb.co/kqhRwc2/venustv-axn.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/axnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3", AXN HD
+http://livecdn.fptplay.net/hda3/axnhd_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="warnertvhd" group-title="TV" tvg-logo="https://i.ibb.co/Lpjbtj0/wbtv.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/warnertv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3", Warner TV HD
+http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="cinemaxhd" group-title="TV" tvg-logo="https://i.ibb.co/k5BgXVg/venustv-hbo-cinemax-vietsub.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/cinemax_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3", Cinemax HD
 https://livecdn.fptplay.net/hda1/cinemax_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="hbohd" group-title="TV" tvg-logo="https://i.ibb.co/RByhnFD/venustv-hbo-vietsub.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3", HBO HD
@@ -279,7 +285,6 @@ https://livecdn.fptplay.net/hda1/vtc14_vhls.smil/chunklist_b5000000.m3u8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://api.vthanhtivi.pw/v1/getlink/vieon/vtc16-hd
 #EXTINF:-1 tvg-id="htv1" group-title="TV" tvg-logo="https://i.ibb.co/VHWRSxb/venustv-htv1.png" catchup="default" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/htv1/${start}/${offset}" catchup-days="3", HTV1
-
 https://api.vthanhtivi.pw/v1/getlink/htv/2631
 #EXTINF:-1 tvg-id="htv2hd" group-title="TV" tvg-logo="https://i.ibb.co/V2mdtB4/venustv-htv2.png" catchup="default" catchup-source="https://api.vthanhtivi.pw/v1/dvr/hplus/htv2-hd-2669/${start}/${offset}" catchup-days="3", HTV2 HD
 https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTV2-HD-1080p/playlist.m3u8
@@ -375,10 +380,6 @@ https://e1.endpoint.cdn.sctvonline.vn/playlist/sctv22/index.m3u8
 #EXTINF:-1 tvg-id="btv5hd" group-title="TV" tvg-logo="https://i.ibb.co/mbKsw65/btv5.png", BTV5
 #EXTVLCOPT:http-referer=http://sctvonline.vn/
 https://e2.endpoint.cdn.sctvonline.vn/hls/btv5/sd2/index.m3u8
-#EXTINF:-1 tvg-id="axnhd" group-title="TV" tvg-logo="https://i.ibb.co/kqhRwc2/venustv-axn.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/axnhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3", AXN HD
-http://livecdn.fptplay.net/hda3/axnhd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="warnertvhd" group-title="TV" tvg-logo="https://i.ibb.co/Lpjbtj0/wbtv.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/warnertv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3", Warner TV HD
-http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="cartoonhd" group-title="TV" tvg-logo="https://i.ibb.co/bby78f9/venustv-cn-cartoon.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/cartoonnetworkhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3", Cartoon Network HD
 https://livecdn.fptplay.net/hda3/cartoonnetworkhd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="animaxhd" group-title="TV" tvg-logo="https://i.ibb.co/gRcXsjX/venustv-animax.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/animaxport_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3", Animax HD
@@ -455,5 +456,3 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
 https://inwild-samsung-uk.amagi.tv/playlist720-p.m3u8
 #EXTINF:-1 tvg-id="" group-title="TV" tvg-logo="https://i.ibb.co/4Rm4S49/venustv-smitholsonian-channel.png",  Smithsonian
 https://smithsonianaus-samsungau.amagi.tv/playlist1080p.m3u8
-#EXTINF:-1 tvg-id="lovenature" group-title="TV" tvg-logo="https://i.ibb.co/KXvRyJv/venustv-lovenature4k.png", Love Nature
-https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
