@@ -5,7 +5,6 @@
 #PLAYLIST:VTV1 HD
 #EXTINF:-1 ch-number="vtv1hd" tvg-id="vtv1hd" tvg-chno="vtv1hd" tvg-name="VTV1 HD" tvg-url="http://onetv.click/schedule/epg.xml" tvg-logo="https://i.ibb.co/CJPqkrD/venustv-vtv1.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/vtv1hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3",VTV1 HD
 https://subs-livecdn.fptplay.net/hda1/vtv1hd_vhls.smil/venustv.m3u8
-
 #EXTGRP:VTV
 #PLAYLIST:VTV2 HD
 #EXTINF:2 ch-number="vtv2hd" tvg-id="vtv2hd" tvg-chno="vtv2hd" tvg-name="VTV2 HD" tvg-url="http://onetv.click/schedule/epg.xml" tvg-logo="https://i.ibb.co/CnXDYrr/venustv-vtv2.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/vtv2_2000.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3",VTV2 HD
@@ -73,7 +72,61 @@ https://livecdn.fptplay.net/hda2/vinhlong2_vhls.smil/chunklist_b5000000.m3u8
 https://livecdn.fptplay.net/hda2/vinhlong3_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="vinhlong4hd" group-title="TV" tvg-logo="https://i.ibb.co/BNkmhpn/venustv-vinh-long-tv-4.png" catchup="default" catchup-source="https://api.vthanhtivi.pw/v1/dvr/thvli/thvl4/${start}/${offset}" catchup-days="3", THVL4 HD
 https://api.vthanhtivi.pw/v1/getlink/mytv_web/429/hd
-#https://livecdn.fptplay.net/hda3/vinhlong4hd_vhls.smil/chunklist_b2500000.m3u8
+#EXTINF:-1 tvg-id="cinemaxhd" group-title="TV" tvg-logo="https://i.ibb.co/k5BgXVg/venustv-hbo-cinemax-vietsub.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/cinemax_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3", Cinemax HD
+https://livecdn.fptplay.net/hda1/cinemax_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="hbohd" group-title="TV" tvg-logo="https://i.ibb.co/RByhnFD/venustv-hbo-vietsub.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3", HBO HD
+https://livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 tvg-id="hbosignature" group-title="TV" tvg-logo="https://i.ibb.co/k1C65zC/venustv-hbo-signature-asia.png", HBO Signature HD Asia
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MzRjOGRhNmItM2ZmNi0zMGIwLWI1NTEtM2ViNjlhZmM2NWU0
+https://liveanevia.mncnow.id/live/eds/HBOSignature2/sa_dash_vmx/HBOSignature2.mpd
+#EXTINF:-1 tvg-id="hbohits" group-title="TV" tvg-logo="https://i.ibb.co/JFPtm8Y/venustv-hbo-hits-asia.png", HBO Hits HD Asia
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MzRjOGRhNmItM2ZmNi0zMGIwLWI1NTEtM2ViNjlhZmM2NWU0
+https://liveanevia.mncnow.id/live/eds/HBOHits/sa_dash_vmx/HBOHits.mpd
+#EXTINF:-1 tvg-id="hbofamily" group-title="TV" tvg-logo="https://i.ibb.co/HPmjhK0/venustv-hbo-family-asia.png", HBO Family HD Asia
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MzRjOGRhNmItM2ZmNi0zMGIwLWI1NTEtM2ViNjlhZmM2NWU0
+https://liveanevia.mncnow.id/live/eds/HBOFamily2/sa_dash_vmx/HBOFamily2.mpd
+#EXTINF:-1 tvg-id="cinemaxhd-asia" group-title="TV" tvg-logo="https://i.ibb.co/m8MYGw0/hbo-cinemax-eng-sub.png", Cinemax HD English   
+http://181.39.202.98:8843/play/a0yf/index.m3u8
+#EXTINF:-1 tvg-id="hbohd-asia" group-title="TV" tvg-logo="https://i.ibb.co/Zh42FtG/hbo-engsub.png", HBO HD English 
+http://190.61.102.67:3000/play/a00h 
+#EXTINF:-1 tvg-id="" group-title="TV" tvg-logo="https://i.ibb.co/bK1BKJw/hbo-2.png", HBO2 HD
+http://190.61.102.67:3000/play/a00i
+#EXTINF:-1 tvg-id="" group-title="TV" tvg-logo="https://i.ibb.co/188bD8c/hbo-xtreme.png", HBO Xtreme HD
+http://190.61.102.67:3000/play/a00l
+#EXTINF:-1 tvg-id="hollywoodclassics" group-title="TV" tvg-logo="https://i.ibb.co/W6TYLQL/venustv-hollywood-classic.png", Hollywood Classics
+#EXTVLCOPT:http-referer=http://sctvonline.vn/ 
+https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/sd2/index.m3u8
+#EXTINF:-1 tvg-id="inthebox" group-title="TV" tvg-logo="https://i.ibb.co/swNMrD4/venustv-in-the-box-tv.png", In The Box HD
+https://code.television4you.xyz/getlink/nethubtv?id=9336&itb=1
+#EXTINF:-1 tvg-id="boxhits" group-title="TV" tvg-logo="https://i.ibb.co/QfD7pTp/venustv-box-hits.png" catchup="default" catchup-source="" catchup-days="3", Box Hits HD
+http://live.television4you.xyz:8081/boxhits/mpegts
+#EXTINF:-1 tvg-id="boxmovie1" group-title="TV" tvg-logo="https://i.ibb.co/N19b5JH/venustv-box-movie1.png" catchup="default" catchup-source="" catchup-days="3", Box Movie 1
+https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/boxmovie1
+#EXTINF:-1 tvg-id="musicbox" group-title="TV" tvg-logo="https://i.ibb.co/0JwjNkV/venustv-music-box.png" catchup="default" catchup-source="" catchup-days="3", Music Box
+#EXTVLCOPT:http-referer=http://sctvonline.vn
+https://e4.endpoint.cdn.sctvonline.vn/hls/boxmusic/sd2/index.m3u8
+#EXTINF:-1 tvg-id="happykids" group-title="TV" tvg-logo="https://i.ibb.co/tYHqJM6/venustv-happy-kids.png", Happy Kids HD
+#EXTVLCOPT:http-referer=http://sctvonline.vn
+https://e4.endpoint.cdn.sctvonline.vn/hls/happykid/sd2/index.m3u8
+#EXTINF:-1 tvg-id="woman" group-title="TV" tvg-logo="https://i.ibb.co/phN4Dgn/venustv-womantv.png", Woman HD
+https://code.television4you.xyz/getlink/nethubtv?id=9333&itb=1
+#EXTINF:-1 tvg-id="man" group-title="TV" tvg-logo="https://i.ibb.co/TgKtwDc/venustv-mantv.png", Man HD
+https://code.television4you.xyz/getlink/nethubtv?id=9332&itb=1
+#EXTINF:-1 tvg-id="drfithd" group-title="TV" tvg-logo="https://i.ibb.co/xGfYrfB/venustv-dr-fit.png", Dr.Fit HD
+#EXTVLCOPT:http-referer=http://sctvonline.vn
+https://e4.endpoint.cdn.sctvonline.vn/hls/drfit/sd2/index.m3u8
+#EXTINF:-1 tvg-id="planetearthhd" group-title="TV" tvg-logo="https://i.ibb.co/JpWjtVg/venustv-planet-earth.png", Planet Earth HD
+#EXTVLCOPT:http-referer=http://sctvonline.vn
+https://e4.endpoint.cdn.sctvonline.vn/hls/planetearth/sd2/index.m3u8
 #EXTINF:-1 tvg-id="" group-title="TV" tvg-logo="https://i.ibb.co/BPzJD2v/veiptv-mientay.png", Miền Tây 
 https://livecdn.fptplay.net/sdc/dongthaphd_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="anvienhd" group-title="TV" tvg-logo="https://i.ibb.co/yWQLHRJ/venustv-an-vien.png", An Viên HD
