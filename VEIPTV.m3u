@@ -72,7 +72,7 @@ https://livecdn.fptplay.net/hda2/vinhlong3_vhls.smil/chunklist_b5000000.m3u8
 https://api.vthanhtivi.pw/v1/getlink/mytv_web/429/hd
 #EXTGRP:PHIM
 #PLAYLIST:
-#EXTINF:-1 ch-number="" tvg-id="hits" tvg-chno="" tvg-name="" tvg-url="https://raw.githubusercontent.com/coodertv/IPTVM3U8/main/Picsart_22-09-17_23-06-12-838.png",VEIPTV (Hữu Thanh Thanh) Editor 
+#EXTINF:-1 ch-number="" tvg-id="hits" tvg-chno="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/coodertv/IPTVM3U8/main/Picsart_22-09-17_23-06-12-838.png ",VenusTV (Hữu Thanh Thanh) Editor 
 http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 #EXTINF:-1 tvg-id="lovenature" group-title="TV" tvg-logo="https://i.ibb.co/KXvRyJv/venustv-lovenature4k.png", Love Nature
 https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
