@@ -87,7 +87,7 @@ https://video.nhandan.thienvietjsc.net/live/nhandan720/playlist.m3u8
 https://livecdn.fptplay.net/hda1/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="quochoi" group-title="TV" tvg-logo="https://i.ibb.co/cwgGgFC/venustv-quoc-hoi-tv.png", Quốc Hội
 https://livecdn.fptplay.net/hda1/quochoivn_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="ttxvnhd" group-title="TV" tvg-logo="https://i.postimg.cc/XvN4wWLy/venustv-v-news.png", VNews
+#EXTINF:-1 tvg-id="ttxvnhd" group-title="TV" tvg-logo="https://raw.githubusercontent.com/coodertv/IPTVM3U8/main/venustv-v-news.png", VNews
 https://livecdn.fptplay.net/hda2/ttxvn_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="vovtvhd" group-title="TV" tvg-logo="https://i.ibb.co/VqVWmjV/venustv-vov-tv.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/vovtv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3", VOVTV HD
 https://mediatech.vncdn.vn/vovlive/tv1live.m3u8
@@ -381,11 +381,11 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m
 #EXTINF:-1 tvg-id="outdoorhd" group-title="TV" tvg-logo="https://i.ibb.co/SdPkWHw/venustv-outdoor-channel.png", Outdoor Channel HD
 https://livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="" group-title="TV" tvg-logo="",France 24 "English"
-https://d4de59d01af447a498cb0565ad005588.mediatailor.us-east-1.amazonaws.com/v1/master/82ded7a88773aef3d6dd1fedce15ba2d57eb6bca/viewmedia-7/live_091/HD/playlist.m3u8
+#https://d4de59d01af447a498cb0565ad005588.mediatailor.us-east-1.amazonaws.com/v1/master/82ded7a88773aef3d6dd1fedce15ba2d57eb6bca/viewmedia-7/live_091/HD/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="TV" tvg-logo="https://i.ibb.co/4WLjB5p/venustv-outside-tv.png", Outside TV
 https://outsidetv-roku-us.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1 tvg-id="beIN StarMovies" group-title="TV" tvg-logo="https://i.ibb.co/kHZ8qbx/venustv-star-movies.png", Star Movies English
-http://221.120.204.4/STAR-MOVIEAS-LOCKLE/tracks-v1a1/mono.m3u8
+#http://221.120.204.4/STAR-MOVIEAS-LOCKLE/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="395" group-title="TV" tvg-logo="https://i.ibb.co/ww8rfBF/venustv-tvn.png", TVN
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MzRjOGRhNmItM2ZmNi0zMGIwLWI1NTEtM2ViNjlhZmM2NWU0
