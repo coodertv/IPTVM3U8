@@ -102,9 +102,9 @@ https://liveanevia.mncnow.id/live/eds/HBOHits/sa_dash_vmx/HBOHits.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MzRjOGRhNmItM2ZmNi0zMGIwLWI1NTEtM2ViNjlhZmM2NWU0
 https://liveanevia.mncnow.id/live/eds/HBOFamily2/sa_dash_vmx/HBOFamily2.mpd
-#EXTINF:-1 tvg-id="cinemaxhd-asia" group-title="TV" tvg-logo="https://i.ibb.co/m8MYGw0/hbo-cinemax-eng-sub.png", Cinemax HD English   
-http://181.39.202.98:8843/play/a0yf/index.m3u8
-#EXTINF:-1 tvg-id="hbohd-asia" group-title="TV" tvg-logo="https://i.ibb.co/Zh42FtG/hbo-engsub.png", HBO HD English 
+#EXTINF:-1 tvg-id="cinemaxhd-asia" group-title="TV" tvg-logo="https://i.ibb.co/m8MYGw0/hbo-cinemax-eng-sub.png", Cinemax Eng
+http://181.39.202.98:9955/play/a0yf/index.m3u8
+#EXTINF:-1 tvg-id="hbohd-asia" group-title="TV" tvg-logo="https://i.ibb.co/Zh42FtG/hbo-engsub.png", HBO Eng
 http://190.61.102.67:3000/play/a00h 
 #EXTINF:-1 tvg-id="" group-title="TV" tvg-logo="https://i.ibb.co/bK1BKJw/hbo-2.png", HBO2 HD
 http://190.61.102.67:3000/play/a00i
@@ -441,8 +441,8 @@ https://livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
 #https://d4de59d01af447a498cb0565ad005588.mediatailor.us-east-1.amazonaws.com/v1/master/82ded7a88773aef3d6dd1fedce15ba2d57eb6bca/viewmedia-7/live_091/HD/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="TV" tvg-logo="https://i.ibb.co/4WLjB5p/venustv-outside-tv.png", Outside TV
 https://outsidetv-roku-us.amagi.tv/playlistR1080p.m3u8
-#EXTINF:-1 tvg-id="beIN StarMovies" group-title="TV" tvg-logo="https://i.ibb.co/kHZ8qbx/venustv-star-movies.png", Star Movies English
-#http://221.120.204.4/STAR-MOVIEAS-LOCKLE/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="beIN StarMovies" group-title="TV" tvg-logo="https://i.ibb.co/kHZ8qbx/venustv-star-movies.png", Star Movies HD
+http://213.57.124.217:8000/play/a06f
 #EXTINF:-1 tvg-id="395" group-title="TV" tvg-logo="https://i.ibb.co/ww8rfBF/venustv-tvn.png", TVN
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MzRjOGRhNmItM2ZmNi0zMGIwLWI1NTEtM2ViNjlhZmM2NWU0
