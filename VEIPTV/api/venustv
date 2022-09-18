@@ -103,13 +103,13 @@ https://liveanevia.mncnow.id/live/eds/HBOHits/sa_dash_vmx/HBOHits.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MzRjOGRhNmItM2ZmNi0zMGIwLWI1NTEtM2ViNjlhZmM2NWU0
 https://liveanevia.mncnow.id/live/eds/HBOFamily2/sa_dash_vmx/HBOFamily2.mpd
 #EXTINF:-1 tvg-id="cinemaxhd-asia" group-title="TV" tvg-logo="https://i.ibb.co/m8MYGw0/hbo-cinemax-eng-sub.png", Cinemax Eng
-http://181.39.202.98:9955/play/a0yf/index.m3u8
+#http://181.39.202.98:9955/play/a0yf/index.m3u8
 #EXTINF:-1 tvg-id="hbohd-asia" group-title="TV" tvg-logo="https://i.ibb.co/Zh42FtG/hbo-engsub.png", HBO Eng
-http://190.61.102.67:3000/play/a00h 
+#http://190.61.102.67:3000/play/a00h 
 #EXTINF:-1 tvg-id="" group-title="TV" tvg-logo="https://i.ibb.co/bK1BKJw/hbo-2.png", HBO2 HD
-http://190.61.102.67:3000/play/a00i
+#http://190.61.102.67:3000/play/a00i
 #EXTINF:-1 tvg-id="" group-title="TV" tvg-logo="https://i.ibb.co/188bD8c/hbo-xtreme.png", HBO Xtreme HD
-http://190.61.102.67:3000/play/a00l
+#http://190.61.102.67:3000/play/a00l
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="TV" tvg-logo="https://i.ibb.co/W6TYLQL/venustv-hollywood-classic.png", Hollywood Classics
 #EXTVLCOPT:http-referer=http://sctvonline.vn/ 
 https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/sd2/index.m3u8
@@ -442,7 +442,7 @@ https://livecdn.fptplay.net/hda1/outdoorfhd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="" group-title="TV" tvg-logo="https://i.ibb.co/4WLjB5p/venustv-outside-tv.png", Outside TV
 https://outsidetv-roku-us.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1 tvg-id="beIN StarMovies" group-title="TV" tvg-logo="https://i.ibb.co/kHZ8qbx/venustv-star-movies.png", Star Movies HD
-http://213.57.124.217:8000/play/a06f
+#http://213.57.124.217:8000/play/a06f
 #EXTINF:-1 tvg-id="395" group-title="TV" tvg-logo="https://i.ibb.co/ww8rfBF/venustv-tvn.png", TVN
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MzRjOGRhNmItM2ZmNi0zMGIwLWI1NTEtM2ViNjlhZmM2NWU0
