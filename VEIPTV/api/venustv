@@ -18,11 +18,11 @@ https://livecdn.fptplay.net/hda1/vtv4_vhls.smil/chunklist_b5000000.m3u8
 #EXTGRP:VTV
 #PLAYLIST:VTV5
 #EXTINF:5 ch-number="vtv5hd" tvg-id="vtv5hd" tvg-chno="vtv5hd" tvg-name="VTV5 HD" tvg-url="http://onetv.click/schedule/epg.xml" tvg-logo="https://i.ibb.co/2PYKS2G/venustv-vtv5.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/vtv5hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3",VTV5 HD
-https://livecdn.fptplay.net/hda2/vtv5hd_vhls.smil/chunklist_b5000000.m3u8
+http://live.tv360.vn/manifest/VTV5_HD/playlist_1080p.m3u8
 #EXTGRP:VTV
 #PLAYLIST:VTV6
 #EXTINF:6 ch-number="vtv6hd" tvg-id="vtv6hd" tvg-chno="vtv6hd" tvg-name="VTV6 HD" tvg-url="http://onetv.click/schedule/epg.xml" tvg-logo="https://i.ibb.co/12Gk3XD/venustv-vtv6.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/vtv6hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3",VTV6 HD
-https://livecdn.fptplay.net/hda1/vtv6hd_vhls.smil/chunklist_b5000000.m3u8
+http://live.tv360.vn/manifest/VTV6_HD/playlist_1080p.m3u8
 #EXTGRP:VTV
 #PLAYLIST:VTV7
 #EXTINF:7 ch-number="vtv7hd" tvg-id="vtv7hd" tvg-chno="vtv7hd" tvg-name="VTV7 HD" tvg-url="http://onetv.click/schedule/epg.xml" tvg-logo="https://i.ibb.co/frBbWMH/venustv-vtv7.png" catchup="default" catchup-source="https://tshift.fptplay.net/dvr/vtv7hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8" catchup-days="3",VTV7 HD
