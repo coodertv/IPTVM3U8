@@ -42,6 +42,10 @@ https://api.vthanhtivi.pw/v1/getlink/vtvgo/7
 #EXTINF:-1 tvg-id="backan" group-title="TV" tvg-logo="https://i.ibb.co/7nBfXJm/veiptv-bac-kan-tv-hd.png", Bắc Kạn
 https://livecdn.fptplay.net/sdb/backan_hls.smil/chunklist_b2500000.m3u8
 #EXTGRP:K+
+#PLAYLIST:K+Cine HD
+#EXTINF:12 ch-number="kcinehd" tvg-id="kcinehd" tvg-chno="kcinehd" tvg-name="K+Cine HD" tvg-logo="https://i.ibb.co/pb0Rqps/venustv-kplus-cine.png",K+Cine HD
+https://travinhtv.vn/api/httpsline/aHR0cDovLzEwNmJlYzlkOC52d3MudmVnYWNkbi52bi9jbGlwdHZfbGl2ZS9hbWxzdDprcGx1c2hk&chunklist_b3128000.m3u8
+#EXTGRP:K+
 #PLAYLIST:K+Life HD
 #EXTINF:13 ch-number="klifehd" tvg-id="klifehd" tvg-chno="klifehd" tvg-name="K+Life HD" tvg-url="http://onetv.click/schedule/epg.xml" tvg-logo="https://i.ibb.co/fkSdbWW/venustv-kplus-life.png",K+Life HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
